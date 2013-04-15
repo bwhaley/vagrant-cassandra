@@ -1,0 +1,23 @@
+SITE
+  remote: http://community.opscode.com/api/v1
+  specs:
+    apt (1.9.2)
+    chef_handler (1.1.4)
+    java (1.10.0)
+      windows (>= 0.0.0)
+    windows (1.8.8)
+      chef_handler (>= 0.0.0)
+
+GIT
+  remote: https://github.com/michaelklishin/cassandra-chef-cookbook
+  ref: master
+  sha: d48c0d080832f9a76f139f3f5fbc63ce02b8701f
+  specs:
+    cassandra (1.0.0)
+      java (>= 0.0.0)
+
+DEPENDENCIES
+  apt (>= 0)
+  cassandra (>= 0)
+  java (>= 0)
+
